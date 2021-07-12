@@ -1,0 +1,198 @@
+/* ---- RESET STYLES ---- */
+* {
+    border: 0;
+    box-sizing: border-box;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+/* ---- BODY STYLES ---- */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    font-size: 1rem;
+    color: #111111;
+    text-rendering: optimizeLegibility;
+    background-color: rgb(237, 236, 236);
+    width: 100%;
+}
+/* ---- HEADER STYLES ---- */
+header {
+    background: #222222;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+/* ---- IMG Logo  ---- */
+.img-logo {
+    display: flex;
+    align-items: center;
+}
+.img-logo img {
+    height: 10vh;
+}
+
+/* ---- NAVBAR STYLES---- */
+nav {
+    display: block;
+}
+/* ---- Don't see checkbox ---- */
+#menu:checked ~ ul.desplegable {
+    display: block;
+}
+input {
+    display: none;
+}
+/* ---- Burger menú ---- */
+.burger div {
+    background: #fff;
+    height: 5px;
+    width: 25px;
+    margin: 5px 0;
+}
+label.burger {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    user-select: none;
+    padding: 10px 15px;
+}
+/* ---- List menu (ul-li) ---- */
+ul.desplegable {
+    background:#222222;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    width: 8rem;
+    text-align: center;
+}
+ul.desplegable li {
+    display: block;
+    background: #222222;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid;
+}
+li:hover {
+    filter: brightness(50%);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    /* Laptops */
+}
+
+/* ---- MAIN STYLES ---- */
+main {
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/bg/hello-i-m-nik-MAgPyHRO0AA-unsplash\(small\).jpg');
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 78vh;
+}
+/* ---- Title ---- */
+h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+    margin: 0 6%;
+    padding-top: 8%;
+    text-align: center;
+}
+/* ---- Image index ---- */
+.img-guille {
+    width: 80%;
+}
+
+/* ---- CONTACT PAGE ---- */
+.social {
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    gap: 15%;
+    margin: 10% 0;
+}
+.social li a {
+    color: #000000;
+    font-size: 2rem;
+}
+.social li i:hover {
+    opacity: 0.5;
+    color: rgb(13, 213, 209);
+}
+
+/* ---- ABOUTME PAGE ---- */
+h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+section p {
+    font-size: 1rem;
+    text-align: center;
+    margin: 5%;
+}
+.backend {
+    font-weight: bold;
+    font-style: italic;
+}
+/* ---- Skills (aside) ---- */
+aside {
+    margin:0 5%;
+    flex-wrap: nowrap;
+}
+.hard {
+    align-self: start;
+}
+.soft {
+    align-self: end;
+
+}
+ul li {
+    list-style: none;
+}
+.skills li i:hover {
+    opacity: 0.5;
+    color: rgb(13, 213, 209);
+}
+/* ---- FOOTER STYLES ---- */
+footer {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+    font-size: 1.5rem;
+    padding: 2%;
+}
+.pie-pag center {
+    padding: 5px;
+    font-size: 0.9375rem;
+}
+.pie-pag center span {
+    color: #656565;
+}
+.pie-pag center a {
+    color:rgb(13, 213, 209);
+    text-decoration: none;
+}
+.agradecimiento span {
+    color: #656565;
+    font-size: 0.8rem;
+}
+.agradecimiento span a {
+    color:rgb(13, 213, 209);;
+    text-decoration: none;
+}
