@@ -24,6 +24,7 @@ header {
     justify-content: space-around;
     width: 100%;
     align-items: center;
+    padding: 2%;
 }
 /* ---- IMG Logo  ---- */
 .img-logo {
@@ -57,7 +58,6 @@ label.burger {
     font-size: 30px;
     text-align: center;
     user-select: none;
-    padding: 10px 15px;
 }
 /* ---- List menu (ul-li) ---- */
 ul.desplegable {
