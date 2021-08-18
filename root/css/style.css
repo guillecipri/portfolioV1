@@ -19,12 +19,16 @@ body {
 }
 /* ---- HEADER STYLES ---- */
 header {
-    background: #222222;
+    background: rgb(25, 28, 31);
     display: flex;
     justify-content: space-around;
     width: 100%;
     align-items: center;
     padding: 2%;
+    /* position: fixed; */
+    top: 0;
+    right: 0;
+    left: 0;
 }
 /* ---- IMG Logo  ---- */
 .img-logo {
